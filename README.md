@@ -1,116 +1,201 @@
-# Mason Organizer
+# 🚀 Mason Organizer
 
-**AI-Powered File Management**
+<p align="center">
+  <img src="assets/logo.png" alt="Mason Organizer Logo" width="180"/>
+</p>
 
-Mason Organizer is a modern desktop application for safely organizing, analyzing, and understanding your files. It combines a polished CustomTkinter interface, safe file-management workflows, duplicate detection, search, reports, themes, and a local-first AI assistant.
+<p align="center">
+  <strong>A modern desktop organizer built with Python.</strong><br>
+  Designed to simplify file organization, project management, and productivity with a clean, modern interface.
+</p>
 
-![Mason Organizer Logo](assets/logo/mason-organizer-logo.png)
+<p align="center">
 
-## Features
+![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-RC1-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-- Modern dark UI with multiple color themes
-- Folder scanning with live progress
-- File category breakdowns
-- Safe organization preview
-- Organize files by category
-- Undo last organization job
-- Duplicate file finder using SHA-256 hashes
-- Search page with file preview and report export
-- Analytics page
-- Local-first Mason AI assistant
-- AI chat assistant for explaining app sections and workflows
-- Settings page with saved preferences
-- Branded splash screen
-- About page with app/system information
-- GitHub-ready project structure
+</p>
 
-## Safety First
+---
 
-Mason Organizer is designed to avoid destructive actions.
+# 📖 About
 
-- It previews organization actions before moving files.
-- It supports undo for organization jobs.
-- Duplicate detection reports duplicates but does not delete them automatically.
-- AI features are local/rule-based by default.
+Mason Organizer is the first official software project developed under **TripZero Labs**.
 
-Always test on a copied folder before using any file-management tool on important files.
+The goal of Mason Organizer is to provide a modern, intuitive desktop application that helps users organize files, manage projects, and improve productivity while maintaining a fast and clean user experience.
 
-## Run from Source
+Built completely in **Python**, the project is designed to continue evolving through future releases with automation, AI integration, and workflow improvements.
+
+---
+
+# ✨ Features
+
+✅ Modern CustomTkinter Interface
+
+✅ Fast File Organization
+
+✅ Project Workspace Management
+
+✅ AI Chat Integration
+
+✅ Multiple Theme Support
+
+✅ Settings Panel
+
+✅ Progress & Scan Window
+
+✅ Lightweight Performance
+
+✅ Cross-Platform Architecture
+
+---
+
+# 🖥️ Screenshots
+
+> *(Screenshots will be added in future releases.)*
+
+```
+docs/
+└── screenshots/
+```
+
+---
+
+# 🛠️ Built With
+
+- Python
+- CustomTkinter
+- Git
+- GitHub
+- VS Code
+- Ubuntu Linux
+
+---
+
+# 🚀 Installation
+
+Clone the repository
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
+git clone https://github.com/TripZeroLabs/Mason-Organizer.git
+```
+
+Navigate into the project
+
+```bash
+cd Mason-Organizer
+```
+
+Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
 python main.py
 ```
 
-On Ubuntu, Tkinter may need to be installed separately:
+---
 
-```bash
-sudo apt install python3-tk
+# 📂 Project Structure
+
 ```
-
-## Developer Setup
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements-dev.txt
-python main.py
-```
-
-## Build an EXE
-
-See [`docs/PACKAGING.md`](docs/PACKAGING.md).
-
-Quick Windows build:
-
-```powershell
-pip install -r requirements-dev.txt
-pyinstaller scripts\mason_organizer_windows.spec
-```
-
-## Project Structure
-
-```text
 Mason-Organizer/
+
 ├── assets/
-│   ├── icons/
-│   └── logo/
 ├── docs/
-├── scripts/
 ├── src/
-│   ├── core/
-│   └── ui/
-├── tests/
-├── CHANGELOG.md
-├── CONTRIBUTING.md
+├── screenshots/
 ├── LICENSE
 ├── README.md
-├── main.py
+├── CHANGELOG.md
 ├── requirements.txt
-└── requirements-dev.txt
+└── main.py
 ```
 
-## Roadmap
+---
 
-- Windows installer
-- Linux AppImage / `.deb`
-- Custom organization rules
-- Workspaces
-- Optional Ollama integration
-- Optional cloud AI provider support
-- Plugin system
+# 🗺️ Roadmap
 
-## Credits
+## RC1 ✅
 
-Developer: **Dylan Fortin**  
-AI Development Assistant: **Mason**
+- Modern User Interface
+- AI Chat
+- Theme System
+- Settings
+- Scan Progress
+- Project Foundation
 
-Built with Python and CustomTkinter.
+---
 
-## License
+## RC2 🚧
 
-MIT License
+- Improved File Automation
+- Plugin System
+- Performance Improvements
+- Better Theme Engine
+- Additional Settings
+
+---
+
+## Future Releases
+
+- Cloud Sync
+- AI Assistant
+- Automatic File Categorization
+- Cross-platform Installer
+- Update Checker
+- Extensions Marketplace
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and bug reports are always welcome.
+
+If you'd like to improve Mason Organizer, feel free to open an Issue or submit a Pull Request.
+
+---
+
+# 📈 Project Status
+
+🟢 Active Development
+
+TripZero Labs is actively improving Mason Organizer with new features and performance updates.
+
+---
+
+# 👨‍💻 Developer
+
+**Dylan Fortin**
+
+Founder of **TripZero Labs**
+
+Python Developer • AI Automation • Cybersecurity • Open Source
+
+---
+
+# 🌐 TripZero Labs
+
+TripZero Labs is focused on building modern desktop software, AI tools, cybersecurity utilities, automation software, and open-source Python applications.
+
+This repository is part of that mission.
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+
+Made with ❤️ using Python by **TripZero Labs**
+
+</p>
